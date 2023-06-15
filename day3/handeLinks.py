@@ -13,6 +13,9 @@ driver.maximize_window()
 #click link text
 # driver.find_element(By.LINK_TEXT, "Apparel").click()
 
+#test
+#test
+
 #links in a page
 links=driver.find_elements(By.XPATH, "//a")
 print("Number of links:", len(links))
